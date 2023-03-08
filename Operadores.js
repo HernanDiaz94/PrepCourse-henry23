@@ -17,7 +17,7 @@ console.log(95 % 4);
 console.log(3 + 5 * 2 - 8);
 
 //Concatenacion
-console.log('Hola'+'Hernan');
-var nombre = 'Hernan';
-var saludo = 'Hola' + nombre;
+console.log("Hola" + "Hernan");
+var nombre = "Hernan";
+var saludo = "Hola" + nombre;
 console.log(saludo);
