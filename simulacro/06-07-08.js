@@ -1,9 +1,3 @@
-/* 
-  Importante: 
-  No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
-  código dentro de las funciones ya definidas. 
-  No comentar la funcion 
-*/
 function crearClasePersona() {
   class Persona {
     constructor(nombre, edad, hobbies, amigos) {
@@ -80,6 +74,9 @@ function crearClasePersona() {
   return Persona;
 }
 
-// No modifiques nada debajo de esta linea //
-
-module.exports = crearClasePersona;
+const User = crearClasePersona();
+const user1 = new User("Hernan", 28, "programar", [
+  { nombre: "dario", edad: 29 },
+]);
+console.log(user1.getFriends());
+console.log(user1.getHobbies());

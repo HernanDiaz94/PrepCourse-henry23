@@ -15,6 +15,9 @@ function pluck(array, propiedad) {
   return valoresPropiedad;
 }
 
-var productos = [{ name: 'TV LCD', price: 100}, { name: 'Computadora', price: 500 }];
-var nombres = pluck(productos, 'name');
+var productos = [
+  { name: "TV LCD", price: 100 },
+  { name: "Computadora", price: 500 },
+];
+var nombres = pluck(productos, "name");
 console.log(nombres); // ['TV LCD', 'Computadora']
