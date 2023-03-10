@@ -13,3 +13,5 @@ function deleteAbc(string) {
 console.log(deleteAbc("abcdefg")); // defg
 console.log(deleteAbc("hello world")); // hello world
 console.log(deleteAbc("cab")); // ''
+
+

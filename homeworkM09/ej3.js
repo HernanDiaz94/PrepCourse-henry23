@@ -14,3 +14,32 @@ function capToFront(string) {
 
 var result = capToFront("soyHENRY");
 console.log(result); // "HENRYsoy"
+
+
+/* //solucion
+let minus ="";
+let mayus ="";
+
+const minusculas = 'abcdefghijklmnopqrstvxyz';
+
+//forma1
+for(let letter of string){
+  if(minisculas.includes(letter)){
+    minus += letter;
+  } else {
+    mayus += letter;
+  }
+  return mayus + minus;
+}
+
+//forma2
+for(let letter of string){
+  if(letter === letter.toUpperCase()){
+    minus += letter;
+  } else {
+    mayus += letter;
+  } 
+
+  return mayus + minus;
+}
+ */

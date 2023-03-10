@@ -15,3 +15,12 @@ function objetoAArreglo(objeto) {
 var miObjeto = { A: 1, B: 2, C: 3 };
 var miArreglo = objetoAArreglo(miObjeto);
 console.log(miArreglo); // debería imprimir [['A', 1], ['B', 2], ['C', 3]]
+
+
+/* const newArray = [];
+
+for(let key in objeto){
+  const miniArray = [key, objeto[key]];
+  newArray.push(miniArray);
+}
+return newArray */
